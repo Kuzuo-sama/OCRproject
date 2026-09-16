@@ -1,0 +1,30 @@
+[
+    {
+        "matricula": "IBW4531",
+        "metodo": "Custo Uniforme",
+        "origem": "Aveiro",
+        "destino": "Coimbra",
+        "caminho": [
+            "Aveiro",
+            "Coimbra"
+        ],
+        "custo": 68,
+        "data": "2025-04-18 20:36:20"
+    },
+    {
+        "matricula": "AJ42SM",
+        "metodo": "Aprofundamento progressivo",
+        "origem": "Viana do Castelo",
+        "destino": "Faro",
+        "caminho": [
+            "Viana do Castelo",
+            "Porto",
+            "Aveiro",
+            "Leiria",
+            "Lisboa",
+            "Faro"
+        ],
+        "custo": 1529,
+        "data": "2026-09-16 14:01:39"
+    }
+]
