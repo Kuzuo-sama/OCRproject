@@ -11,6 +11,7 @@ RUN apt-get update \
         tesseract-ocr-por \
         libgl1 \
         libglib2.0-0 \
+        x11-utils \
         xvfb \
         x11vnc \
         novnc \

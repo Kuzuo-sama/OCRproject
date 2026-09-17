@@ -5,9 +5,8 @@ services:
     environment:
       DISPLAY: :99
       TESSERACT_CMD: /usr/bin/tesseract
-    ports:
-      # Reuses the host port previously assigned to TeamSpeak HTTP.
-      - "8082:6080"
+    expose:
+      - "6080"
     volumes:
       - .:/app
     stdin_open: true
